@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: rgb(3,3,3);
+    font-family: 'poppins', sans-serif;
+}
+
+.logo{
+    width: 70px;
+    height: auto;
+    border-radius: 100%;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: transparent;
+    
+}
+
+.topnav #myLinks{
+    display: none;
+}
+
+.topnav a{
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon{
+    background: transparent;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0; 
+} 
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nameSec{
+    text-align: center;
+    height: 80%;
+    width: 100%;
+    padding-top: 12%;
+    border: 1px solid rebeccapurple;
+}
+
+.nameHeading>h1{
+    border: 1px solid red;
+    font-size: 5rem;
+    font-weight: 300px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.intro{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+}
+
+.profilpic{
+    border: 1px solid gold;
+    display: flex;
+    justify-content: flex-end;
+}
+.profilpic>img{
+    width: 80%;
+    border: 1px solid rebeccapurple;
+    border-radius: 20%;
+}
+
+.nameHeading>h1>strong{
+    color: rgb(128, 0, 43);
+}
+.right{
+    margin: 2%;
+    height: 80%;
+}
+.intro>p{
+color: white;
+}
+
+.intro>p>strong{
+    color: rgb(128, 0, 43);
+}
+
+#myLinks{
+    padding-top: 6%;
+}
+
+  #myLinks>a{
+    text-align: center;
+    font-size: 2rem;
+    color: gray;
+  }
+
+  #myLinks>a:hover{
+    color: white;
+    transition: all 0.25s ease-in-out;
+  }

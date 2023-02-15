@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    color: white;
+  }
+  
+  body {
+    background: #101010;
+  }
+  
+  .logo {
+    width: 70px;
+    height: auto;
+    border-radius: 100%;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: transparent;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: transparent;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  #myLinks {
+    padding-top: 6%;
+  }
+  
+  #myLinks > a {
+    text-align: center;
+    font-size: 2rem;
+    color: gray;
+  }
+  
+  #myLinks > a:hover {
+    color: white;
+    transition: all 0.25s ease-in-out;
+  }
+  
+  .main{
+    width: 100%;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heading{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heading>h1{
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+  }
+  .heading>h1>strong{
+    color: #c70039;
+  }
+
+  .heading>p{
+    font-size: 1.2rem;
+  }
+
+  .heading>p>strong{
+    color: #c70039;
+  }
+  .portfolioMain {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .project {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5%;
+    padding-right: 2%;
+    padding-top: 50px;
+    padding-bottom: 40px; 
+  }
+
+  .leftside {
+    width: 40%;
+  }
+  
+  img {
+    height: 400px;
+    width: 100%;
+    z-index: -9999;
+  }
+  
+  .rightside {
+    width: 40%;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+    padding-left: 1%;
+   margin: 1%;
+    margin-left: -40px;
+    margin-top: 160px;
+   z-index: 3;
+    background: #080808;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  
+  .project1Text > h2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 200%;
+    padding: 20px;
+    color: #c70039;
+   transition: all 0.4s ease;
+    font-weight: bolder;
+  }
+  
+  .project1Text > p {
+    font-size: 16px;
+    opacity: 0.8;
+    font-family: poppins;
+    font-weight: 200;
+    padding: 20px;
+    font-weight: bolder;
+  }
+  
+  .view {
+    text-align: center;
+  } 
+   
+  .view > button {
+    font-size: 16px;
+    opacity: 0.8;
+    font-family: poppins;
+    font-weight: 200;
+    padding: 10px 20px;
+    background: transparent;
+    color: #c70039;
+    outline: none;
+    margin: 20px;
+    border: 1.5px solid #c70039;
+    cursor: pointer;
+   overflow: hidden;
+    position: relative;
+    transition: all 0.4s ease;
+    font-weight: bolder;
+  }
+
+  .view > button:hover {
+    color: white;
+    background: #c70039;
+  } 
+
+
+  footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    margin-top: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 1.2rem;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 4px;
+    color: #c70039;
+    transition: all 0.4s ease;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #c70039;
+    border-radius: 4px;
+    width: 4px;
+    transition: all 0.4s ease;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #101010;
+    border-radius: 4px;
+    width: 4px;
+  }
+  
