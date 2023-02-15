@@ -61,7 +61,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 1px solid blue;
   }
   
   .heading {
@@ -96,7 +95,6 @@
     flex-direction:row;
     justify-content: center;
     align-items: center;
-    border: 1px solid yellow;
     height: 80vh;
   }
 .messageMe{
@@ -106,7 +104,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid purple;
     /* padding-left:8% ;   */
 }
 
@@ -167,19 +164,18 @@ button {
 
 .contactInfo{
     width: 40%;
-    border: 1px solid red;
+
     background-image: url(/porfolio/public/imgs/bg.jpg);
     /* height: 80vh; */
     background-repeat: no-repeat;
     border-radius: 15px;
     margin-right: 50px; 
-    margin-top: 4%;
 }
 .contactInfo>h3{
     width: 100%;
     text-align: center;
     font-size: 1.5rem;
-    margin-top: 30px;
+    margin-top: 2px;
 }
   footer{
     width: 100%;
@@ -187,7 +183,7 @@ button {
     justify-content: center;
     align-items: center;
     background: black;
-    margin-top: 2%;
+    margin-top: 10%;
     padding-top: 1%;
     padding-bottom: 1%;
     font-size: 1.2rem;

@@ -1,8 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    background: rgb(3,3,3);
     font-family: 'poppins', sans-serif;
+}
+
+body{
+    background: rgb(3,3,3);
 }
 
 .logo{
@@ -47,11 +50,10 @@
     height: 80%;
     width: 100%;
     padding-top: 12%;
-    border: 1px solid rebeccapurple;
 }
 
 .nameHeading>h1{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-size: 5rem;
     font-weight: 300px;
     color: white;
@@ -60,20 +62,20 @@
 }
 
 .intro{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
     flex-direction: column;
     padding-left: 20%;
 }
 
 .profilpic{
-    border: 1px solid gold;
+    /* border: 1px solid gold; */
     display: flex;
     justify-content: flex-end;
 }
 .profilpic>img{
     width: 80%;
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
     border-radius: 20%;
 }
 
